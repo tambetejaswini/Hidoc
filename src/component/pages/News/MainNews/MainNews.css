@@ -1,0 +1,7 @@
+.border-bottom {
+  border-bottom: var(--bs-border-width) var(--bs-border-style) #ced4da !important;
+}
+
+.img {
+  width: 100%;
+}

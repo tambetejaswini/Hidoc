@@ -1,0 +1,31 @@
+.round-cir {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.icon-box {
+  width: 100%;
+  height: 80px;
+  position: relative;
+}
+
+.text-size {
+  font-size: 7px;
+}
+
+.icon-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logoTitle-center {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+}

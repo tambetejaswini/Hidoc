@@ -1,0 +1,8 @@
+.border-bottom {
+  border-bottom: var(--bs-border-width) var(--bs-border-style) #ced4da !important;
+}
+
+.box2Img > img {
+  width: 100%;
+  object-fit: cover;
+}

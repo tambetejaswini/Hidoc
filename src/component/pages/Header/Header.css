@@ -1,0 +1,39 @@
+.logo-img {
+  height: 18px;
+  width: 85px;
+  object-fit: cover;
+}
+
+.align-content-centre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rounded-sqr {
+  border: 1px solid black;
+  border-radius: 19px;
+  width: 60px;
+  height: 24px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rounded-cir {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.trophy-color {
+  color: red;
+}
+
+.avatar-content {
+  display: flex;
+  align-items: center;
+}

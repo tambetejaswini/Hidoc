@@ -1,0 +1,10 @@
+.icon-color {
+  color: rgb(200, 200, 232);
+  font-size: 3rem;
+}
+
+.centre {
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+}
