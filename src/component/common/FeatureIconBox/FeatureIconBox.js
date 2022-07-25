@@ -10,7 +10,7 @@ function FeatureIconBox({ iconDetails }) {
         className="round-cir icon-center "
         style={{ backgroundColor: iconDetails.iconBackground }}
       >
-        <i class={iconDetails.icon}></i>
+        <i className={iconDetails.icon}></i>
       </div>
       <div className="text-size logoTitle-center">{iconDetails.title}</div>
       <br></br>

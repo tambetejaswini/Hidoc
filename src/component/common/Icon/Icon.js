@@ -1,7 +1,7 @@
 import React from "react";
 import "./Icon.css";
+
 function Icon({ icon }) {
-  console.log(icon);
   return (
     <div className="m-1">
       <div className="round-cir">

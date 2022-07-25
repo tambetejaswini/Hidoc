@@ -27,7 +27,7 @@ const MoreNews = () => {
 
         <div className="col-4 border p-2">
           {HidocList.map((item) => (
-            <ListItem item={item}></ListItem>
+            <ListItem item={item} key={item.id}></ListItem>
           ))}
         </div>
       </div>

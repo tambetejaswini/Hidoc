@@ -22,7 +22,7 @@ function Footer() {
       </div>
       <div className="bg-lastFooter text-center p-1">
         <div>
-          <i class="fa fa-copyright" aria-hidden="true"></i> Copyright 2022
+          <i className="fa fa-copyright" aria-hidden="true"></i> Copyright 2022
           Hidoc Dr Inc
         </div>
         <div>Terms & Conditions | Privacy Policy</div>

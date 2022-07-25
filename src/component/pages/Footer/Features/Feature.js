@@ -9,11 +9,8 @@ function Feature() {
       </b>
       <div className="row m-1 p-1 ">
         {FeatureIcon.map((iconDetails) => (
-          <div className="col-3 p-0">
-            <FeatureIconBox
-              iconDetails={iconDetails}
-              key={iconDetails.id}
-            ></FeatureIconBox>
+          <div className="col-3 p-0" key={iconDetails.id}>
+            <FeatureIconBox iconDetails={iconDetails}></FeatureIconBox>
           </div>
         ))}
       </div>

@@ -3,6 +3,7 @@ import squareLogo from "../../../../images/hidoc.png";
 import Icon from "../../../common/Icon/Icon";
 import { iconClass } from "../../../data/Data";
 import "./HidocLogo.css";
+
 function HidocLogo() {
   return (
     <div className="">
@@ -14,7 +15,7 @@ function HidocLogo() {
       </div>
       <div className="d-flex ">
         {iconClass.map((icon) => (
-          <Icon icon={icon}></Icon>
+          <Icon icon={icon} key={icon.id}></Icon>
         ))}
       </div>
     </div>
